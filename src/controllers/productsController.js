@@ -33,6 +33,7 @@ const controller = {
 	
 	// Create -  Method to store
 	store: (req, res) => {
+		
 		let last_id = 1
 
 		products.forEach(product =>{
@@ -46,9 +47,9 @@ const controller = {
 			name: req.body.name.trim(),
 			price: req.body.price.trim(),
 			discount: req.body.discount.trim(),
-			category: req.body.category.trim(),
+			category: req.body.category,
 			description: req.body.description.trim(),
-			image: "default-image.png",
+			image: req.file ? req.file.filename : "default-image.png"
 		}
 
 		products.push(nuevo_producto)
@@ -68,34 +69,34 @@ const controller = {
 	// Update - Method to update
 	update: (req, res) => {
 		
-		let name = req.body.name.trim()
-		let price = req.body.price.trim()
-		let discount = req.body.discount.trim()
-		let category = req.body.category.trim()
-		let description = req.body.description.trim()
+		let {
+			name ,
+			price ,
+			discount ,
+			category ,
+			description,
+		} = req.body
+ 			
 
-			
-
+		
 		products.forEach(product => {
 			if(product.id === +req.params.id) {
 				product.name = name,
 				product.price = price,
 				product.discount = discount,
 				product.category = category,
-				product.description = description,
-				image= product.image
+				product.description = description
+				// product.image = req.file ? req.file.filename : product.image /// al hacer res.send(req.file) no me detecta el archivo, por alguna razon no sube la imagen aunque este el multer en su ruta. pero si hago res.send(req.body) ahi si me muestra el nombre de la imagen que se esta subiendo
 			}
 		})
 
 
 
-		// products.push(products)
-
 		writeJSON(products)
 
 		res.redirect('/products')
 	
-
+		
 	
 	},
 	// Delete - Delete one product from DB

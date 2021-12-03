@@ -3,7 +3,7 @@
 
 <a href="https://github.com/XmauricioX/EXPRESS_CRUD_1_Y_2/blob/main/DESAFIO/M05C04%20-%20Ejercitaci%C3%B3n%20CRUD%20Episodio%20I.pdf" >IR AL PDF 1<a>
 
-<a href="">IR AL PDF 2<a>
+<a href="https://github.com/XmauricioX/EXPRESS_CRUD_1_Y_2/blob/main/DESAFIO/M05C05%20-%20Ejercitaci%C3%B3n%20CRUD%20Episodio%20II.pdf">IR AL PDF 2<a>
 
 ## Preview del desafio finalizado
 

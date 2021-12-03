@@ -86,10 +86,10 @@ const controller = {
 				product.discount = discount,
 				product.category = category,
 				product.description = description
-				// product.image = req.file ? req.file.filename : product.image /// al hacer res.send(req.file) no me detecta el archivo, por alguna razon no sube la imagen aunque este el multer en su ruta. pero si hago res.send(req.body) ahi si me muestra el nombre de la imagen que se esta subiendo
+				product.image = req.file ? req.file.filename : product.image 
 			}
 		})
-
+		
 
 
 		writeJSON(products)

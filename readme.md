@@ -1,7 +1,7 @@
 # Express CRUD 1 y 2
 ## Desafio BackEnd del curso FullStack de Digital House
 
-<a href="https://github.com/XmauricioX/EXPRESS_CRUD_1/DESAFIO/M05C04 - Ejercitación CRUD Episodio I.pdf" >IR AL PDF 1<a>
+<a href="https://github.com/XmauricioX/EXPRESS_CRUD_1_Y_2/blob/main/DESAFIO/M05C04%20-%20Ejercitaci%C3%B3n%20CRUD%20Episodio%20I.pdf" >IR AL PDF 1<a>
 
 <a href="">IR AL PDF 2<a>
 

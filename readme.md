@@ -7,6 +7,6 @@
 
 ## Preview del desafio finalizado
 
-<img src="https://github.com/XmauricioX/EXPRESS_CRUD_1/public/images/preview1.PNG">
-<img src="https://github.com/XmauricioX/EXPRESS_CRUD_1/public/images/preview2.PNG">
-<img src="https://github.com/XmauricioX/EXPRESS_CRUD_1/public/images/preview3.PNG">
+<img src="https://github.com/XmauricioX/EXPRESS_CRUD_1_Y_2/blob/main/public/images/preview1.PNG">
+<img src="https://github.com/XmauricioX/EXPRESS_CRUD_1_Y_2/blob/main/public/images/preview2.PNG">
+<img src="https://github.com/XmauricioX/EXPRESS_CRUD_1_Y_2/blob/main/public/images/preview3.PNG">
